@@ -1,0 +1,14 @@
+<!-- app/views/layouts/application.html.erb -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FinancialTracker</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= vite_client_tag %> <!-- Loads Vite HMR client -->
+</head>
+<body>
+  <div id="root"></div> <!-- React will attach to this div -->
+ <%= vite_javascript_tag 'entrypoints/application.jsx' %>
+</body>
+</html>
