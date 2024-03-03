@@ -8,7 +8,7 @@ export default defineConfig({
     extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"],
   },
   build: {
-    outDir: "../public",
+    outDir: "../dist",
     emptyOutDir: true,
   },
 });
