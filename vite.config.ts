@@ -8,6 +8,7 @@ export default defineConfig({
     extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"],
   },
   build: {
-    outDir: "public/vite",
+    outDir: "../dist",
+    emptyOutDir: true,
   },
 });
